@@ -1,0 +1,65 @@
+Which command shows the current user?
+b) whoami
+
+What command is used to display the manual page for a command?
+c) man
+
+What does the chmod command modify?
+b) File permissions
+
+What will show you all the subdirectories and contents of the current directory?
+b) ls
+
+Executing pwd in shell will return:
+d) Current directory
+
+Consider using the command cd /a/b/c, then executing cd ... What does this last command do?
+d) Changes to /a/b directory
+
+Which command adds changes to the staging area in Git?
+a) git add
+
+What does the .git directory store?
+d) Repository metadata and version history
+
+What does the HEAD in Git represent?
+c) The currently checked-out commit
+
+What does the Linux command cp file1 file2 do?
+a) Copy file1 to file2
+
+What does the Linux command ls do?
+d) Lists the contents of a directory
+
+What is Git and why is it important?
+Git is a distributed version control system that helps track changes to files and coordinate work on those files among multiple people. It is important because it allows multiple developers to collaborate on a project efficiently, track changes, revert to previous states, and manage different versions of a project.
+
+
+What are the various steps/commands you’ll use to create a frontend/backend repository and push your project to the GitHub repository created?
+1. Install Git:
+   Make sure Git is installed on your system. If not, download and install it from git-scm.com.
+
+2. Configure Git:
+   git config --global user.name 'Your Name'
+   git config --global user.email 'your.email@example.com'
+
+3. Initialize a Git repository:
+   Go to your project directory and initialize a repository.
+   cd path/to/your/project
+   git init
+
+4. Add files to the repository:
+   git add .
+
+5. Commit the changes:
+   git commit -m 'Initial commit'
+
+6. Create a repository on GitHub:
+   Go to GitHub, create a new repository, and copy the repository URL.
+
+7. Add the remote repository:
+   git remote add origin https://github.com/yourusername/your-repo-name.git
+
+8. Push the changes to GitHub:
+   git push -u origin master
+
